@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\PROJECTS\\UniverseMultiverse\\CosmosProjectAPI\\CosmosApi\\CosmosApi\\CosmosApi.csproj": {}
+    "D:\\PROJECTS\\UniverseMultiverse\\CosmosProjectAPI\\CosmosWebApp\\CosmosApi\\CosmosApi\\CosmosApi.csproj": {}
   },
   "projects": {
-    "D:\\PROJECTS\\UniverseMultiverse\\CosmosProjectAPI\\CosmosApi\\CosmosApi\\CosmosApi.csproj": {
+    "D:\\PROJECTS\\UniverseMultiverse\\CosmosProjectAPI\\CosmosWebApp\\CosmosApi\\CosmosApi\\CosmosApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\PROJECTS\\UniverseMultiverse\\CosmosProjectAPI\\CosmosApi\\CosmosApi\\CosmosApi.csproj",
+        "projectUniqueName": "D:\\PROJECTS\\UniverseMultiverse\\CosmosProjectAPI\\CosmosWebApp\\CosmosApi\\CosmosApi\\CosmosApi.csproj",
         "projectName": "CosmosApi",
-        "projectPath": "D:\\PROJECTS\\UniverseMultiverse\\CosmosProjectAPI\\CosmosApi\\CosmosApi\\CosmosApi.csproj",
+        "projectPath": "D:\\PROJECTS\\UniverseMultiverse\\CosmosProjectAPI\\CosmosWebApp\\CosmosApi\\CosmosApi\\CosmosApi.csproj",
         "packagesPath": "C:\\Users\\souvi\\.nuget\\packages\\",
-        "outputPath": "D:\\PROJECTS\\UniverseMultiverse\\CosmosProjectAPI\\CosmosApi\\CosmosApi\\obj\\",
+        "outputPath": "D:\\PROJECTS\\UniverseMultiverse\\CosmosProjectAPI\\CosmosWebApp\\CosmosApi\\CosmosApi\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
