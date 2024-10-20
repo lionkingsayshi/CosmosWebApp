@@ -1,0 +1,47 @@
+/* Dashboard.css */
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%; /* Ensure body takes full height */
+    overflow: hidden; /* Prevent scrolling */
+}
+
+.full-screen-grid {
+    display: flex; /* Use flexbox for layout */
+    justify-content: center; /* Center the image */
+    align-items: center; /* Center the image */
+    height: 100vh; /* Full viewport height */
+    width: 100vw; /* Full viewport width */
+    position: relative; /* Required for positioning */
+}
+
+.full-screen-image {
+    position: absolute; /* Change to absolute positioning */
+    top: 0; /* Align to the top */
+    left: 0; /* Align to the left */
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    object-fit: cover; /* Scale the image nicely */
+    z-index: -1; /* Ensure it stays behind other content */
+}
+
+.button-container {
+    position: relative; /* Keep buttons in the flow of the document */
+    z-index: 1; /* Ensure buttons are above the image */
+    text-align: center; /* Center buttons */
+    padding: 20px; /* Add some padding for spacing */
+}
+
+.overlay-button {
+    padding: 10px 20px; /* Button padding */
+    margin: 10px; /* Margin between buttons */
+    color: black;
+    background-color: rgba(255, 255, 255, 0.7); /* Light background for visibility */
+    border:0cqmin; /* No border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer on hover */
+}
+
+.overlay-button:hover {
+    background-color:midnightblue /* Change color on hover */
+}

@@ -1,0 +1,82 @@
+[
+  {
+    "ContainingType": "CosmosApi.Controllers.CosmosController",
+    "Method": "GetGalaxies",
+    "RelativePath": "api/Cosmos",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [],
+    "EndpointName": "GetGalaxyData"
+  },
+  {
+    "ContainingType": "CosmosApi.Controllers.CosmosController",
+    "Method": "AddGalaxy",
+    "RelativePath": "api/Cosmos",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "galaxy",
+        "Type": "Galaxy",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CosmosApi.Controllers.CosmosController",
+    "Method": "GetGalaxyByIdAsync",
+    "RelativePath": "api/Cosmos/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CosmosApi.Controllers.CosmosController",
+    "Method": "UpdateGalaxy",
+    "RelativePath": "api/Cosmos/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "galaxy",
+        "Type": "Galaxy",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CosmosApi.Controllers.CosmosController",
+    "Method": "DeleteGalaxy",
+    "RelativePath": "api/Cosmos/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

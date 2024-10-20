@@ -1,0 +1,50 @@
+/* src/Modal.css */
+
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.7); /* Dark overlay */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000; /* Ensure it appears on top */
+}
+
+.modal-content {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    width: 90%; /* Adjust width to give a bit of margin */
+    max-width: 800px; /* Maximum width for the modal */
+    max-height: 90vh; /* Set max-height to avoid overflow */
+    overflow-y: auto; /* Allow vertical scrolling */
+    position: relative;
+}
+
+.close-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: transparent;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+/* Add styles for the overlay button */
+.overlay-button-modal {
+    margin-top: 20px; /* Add some spacing */
+    padding: 10px 20px; /* Padding for the button */
+    background-color: #589ba7; /* Background color */
+    color: white; /* Text color */
+    border: none; /* No border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+}
+
+.overlay-button-modal:hover {
+    background-color: #0c4e23; /* Darker shade on hover */
+}

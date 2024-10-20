@@ -1,0 +1,63 @@
+/* Login.css */
+html, body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#root {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh; /* Ensures full height */
+}
+
+.login-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full height of the viewport */
+    background-color: #219c4c; /* Background color for the page */
+    width: 100vw; /* Ensures it spans the full width of the viewport */
+}
+
+.login-container {
+    background-color: rgb(136, 171, 76);
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+}
+
+.login-container div {
+    margin-bottom: 1.5rem; /* Add space between form fields */
+}
+
+.login-container label {
+    display: block; /* Make labels block elements */
+    margin-bottom: 0.5rem; /* Add space below the label */
+}
+
+.login-container input {
+    width: 100%; /* Full width input */
+    padding: 0.5rem; /* Add padding inside the input */
+    border: 1px solid #ccc; /* Border style */
+    border-radius: 4px; /* Rounded corners */
+}
+
+button {
+    padding: 0.5rem 1rem; /* Add padding to the button */
+    background-color: #5cb85c; /* Button background color */
+    color: white; /* Button text color */
+    border: none; /* Remove default border */
+    border-radius: 4px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+}
+
+button:hover {
+    background-color: #4cae4c; /* Darker green on hover */
+}

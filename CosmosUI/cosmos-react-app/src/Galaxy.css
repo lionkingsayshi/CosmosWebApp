@@ -1,0 +1,34 @@
+/* GalaxiesList.css */
+
+.container {
+    max-width: 800px; /* Set a max width for the container */
+    margin: 20px auto; /* Center the container */
+    padding: 20px; /* Add padding around the content */
+    border: 1px solid #ccc; /* Optional: border for definition */
+    border-radius: 8px; /* Rounded corners */
+    background-color: #f9f9f9; /* Light background color for contrast */
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Optional: subtle shadow */
+}
+
+h1, h2, h3, h4, h5 {
+    color: #0c0b0b; /* Darker color for headings */
+}
+
+ul {
+    list-style-type: none; /* Remove default bullet points */
+    padding-left: 0; /* Remove padding */
+}
+
+li {
+    margin-bottom: 15px; /* Space between list items */
+    padding: 10px; /* Padding for each list item */
+    border-bottom: 1px solid #e0e0e0; /* Subtle border for separation */
+}
+
+li:last-child {
+    border-bottom: none; /* Remove the border for the last item */
+}
+
+strong {
+    color: #000; /* Stronger emphasis on bold text */
+}
