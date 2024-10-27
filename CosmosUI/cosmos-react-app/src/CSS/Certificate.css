@@ -1,0 +1,22 @@
+/* src/components/Certificates.css */
+
+.certificates-form-container {
+    margin: 20px 0; /* Spacing around the container */
+    padding: 15px; /* Padding for the content inside the container */
+    border: 1px solid #ccc; /* Optional: border for better visibility */
+    border-radius: 8px; /* Rounded corners */
+    background-color: #f9f9f9; /* Light background color */
+    max-height: 400px; /* Set a max height for the container */
+    overflow-y: auto; /* Enable vertical scrolling */
+  }
+  
+  .certificates-form {
+    display: flex;
+    flex-direction: column; /* Stack sections vertically */
+  }
+  
+  .certificates-form ul {
+    margin: 0; /* Remove margin around the list */
+    padding-left: 20px; /* Indentation for lists */
+  }
+  

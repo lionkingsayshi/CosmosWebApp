@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-import './Login.css'; // Import your CSS file for styling
+import './CSS/Login.css'; // Import your CSS file for styling
 import credentials from './LoginCredential.json';
 
 const LoginPage = () => {
@@ -27,7 +27,9 @@ const LoginPage = () => {
         setError('Invalid username or password');
       }
   };
-
+  const goToPortfolio = () => {
+    navigate('/Portfolio/Portfolio'); // Navigate to the Portfolio page
+  };
   return (
     <div className="login-container">
       <h2>Login</h2>
@@ -53,7 +55,11 @@ const LoginPage = () => {
           />
         </div>
         {error && <p style={{ color: 'red' }}>{error}</p>}
-        <button type="submit">Login</button>
+        <div class="button-group">
+          <button type="submit">Login</button>
+          <a>Or</a>
+          <button type="button" onClick={goToPortfolio}>Go to Souvik's Portfolio</button>
+        </div>
       </form>
     </div>
   );

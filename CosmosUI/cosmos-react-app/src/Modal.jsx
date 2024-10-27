@@ -1,6 +1,6 @@
 // src/Modal.jsx
 import React from 'react';
-import './Modal.css'; // Optional: for styling
+import './CSS/Modal.css'; // Optional: for styling
 
 const Modal = ({ isOpen, onClose, galaxy }) => {
     if (!isOpen) return null; // Don't render anything if the modal is not open

@@ -1,0 +1,36 @@
+/* src/components/Experience.css */
+
+.experience-container {
+    margin: 20px 0; /* Spacing around the container */
+  }
+  
+  .experience-form {
+    max-height: 400px; /* Set the maximum height for the form */
+    overflow-y: auto; /* Enable vertical scrolling */
+    border: 1px solid #ccc; /* Optional: border for better visibility */
+    padding: 15px; /* Padding for the content inside the form */
+    border-radius: 8px; /* Rounded corners */
+    background-color: #f9f9f9; /* Light background color */
+  }
+  
+  .job-title h3 {
+    margin: 0; /* Remove default margin */
+    font-size: 1.5em; /* Increase font size */
+  }
+  
+  .job-title p {
+    margin: 5px 0; /* Space below the title */
+    font-style: italic; /* Italics for the job period */
+  }
+  
+  .job-description {
+    margin-top: 10px; /* Space above the job description */
+    line-height: 1.6; /* Increase line height for readability */
+  }
+  
+  .job-description p {
+    margin: 8px 0; /* Spacing between paragraphs */
+  }
+  
+  /* You can add more styling as needed */
+  

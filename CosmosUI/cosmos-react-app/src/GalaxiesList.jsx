@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import './Galaxy.css'; // Import the CSS fileimport React, { useEffect, useState } from 'react';
+import './CSS/Galaxy.css'; // Import the CSS fileimport React, { useEffect, useState } from 'react';
 import axios from 'axios';
 import Modal from './Modal'; // Import your Modal component
 
