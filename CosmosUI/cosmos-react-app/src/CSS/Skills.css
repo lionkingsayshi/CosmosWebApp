@@ -1,8 +1,8 @@
 /* src/components/Skills.css */
 
 .skills-form-container {
-    margin: 20px 0; /* Spacing around the container */
-    padding: 15px; /* Padding for the content inside the container */
+  margin: 0; /* Remove margin */
+  padding: 0; /* Padding for the content inside the container */
     border: 1px solid #ccc; /* Optional: border for better visibility */
     border-radius: 8px; /* Rounded corners */
     background-color: #f9f9f9; /* Light background color */
