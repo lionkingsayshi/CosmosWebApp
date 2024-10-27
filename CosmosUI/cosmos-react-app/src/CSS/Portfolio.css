@@ -1,19 +1,18 @@
+/* src/CSS/Portfolio.css */
+
 /* Container styling */
 .portfolio-container {
   display: flex;
-  max-width: 1000px;
-  margin: 0 auto;
-  padding: 20px;
-  font-family: Arial, sans-serif;
+  height: 100vh; /* Use full viewport height */
+  overflow: hidden; /* Prevent overflow */
 }
 
 /* Side Menu Styling */
 .side-menu {
   width: 200px; /* Width of the sidebar */
-  background-color: #e0e0e0; /* Background color for the sidebar */
+  background-color: rgb(45, 145, 58); /* Sidebar color */
   padding: 20px;
   border-right: 1px solid #421a1a; /* Right border */
-  background-color: rgb(45, 145, 58);
 }
 
 .side-menu ul {
@@ -23,7 +22,7 @@
 
 .side-menu li {
   margin: 10px 0; /* Spacing between menu items */
-  cursor: pointer; /* Show pointer cursor on hover */
+  cursor: pointer; /* Pointer cursor on hover */
   padding: 10px; /* Padding for better click area */
   border-radius: 4px; /* Rounded corners */
   transition: background-color 0.2s; /* Smooth transition for background color */
@@ -31,7 +30,7 @@
 
 .side-menu li:hover,
 .side-menu li.active {
-  color: #0d1014;
+  color: #0d1014; /* Color change on hover */
 }
 
 /* Main Content Styling */
