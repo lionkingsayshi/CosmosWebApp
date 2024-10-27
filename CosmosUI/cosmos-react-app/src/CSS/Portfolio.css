@@ -1,0 +1,68 @@
+/* Container styling */
+.portfolio-container {
+  display: flex;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+/* Side Menu Styling */
+.side-menu {
+  width: 200px; /* Width of the sidebar */
+  background-color: #e0e0e0; /* Background color for the sidebar */
+  padding: 20px;
+  border-right: 1px solid #421a1a; /* Right border */
+  background-color: rgb(45, 145, 58);
+}
+
+.side-menu ul {
+  list-style: none; /* Remove bullet points */
+  padding: 0; /* Remove padding */
+}
+
+.side-menu li {
+  margin: 10px 0; /* Spacing between menu items */
+  cursor: pointer; /* Show pointer cursor on hover */
+  padding: 10px; /* Padding for better click area */
+  border-radius: 4px; /* Rounded corners */
+  transition: background-color 0.2s; /* Smooth transition for background color */
+}
+
+.side-menu li:hover,
+.side-menu li.active {
+  color: #0d1014;
+}
+
+/* Main Content Styling */
+.main-content {
+  flex: 1; /* Take remaining space */
+  padding: 20px; /* Padding for content */
+  overflow-y: auto; /* Enable scrolling if content overflows */
+}
+
+.main-content h2 {
+  color: #0c0c0c;
+  font-size: 1.8em;
+  margin-bottom: 10px;
+}
+
+.main-content p,
+.main-content ul {
+  color: #4c336f;
+  line-height: 1.6;
+}
+
+.main-content ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+.main-content a {
+  color: #007acc;
+  text-decoration: none;
+}
+
+.main-content a:hover {
+  text-decoration: underline;
+}

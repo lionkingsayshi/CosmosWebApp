@@ -1,0 +1,30 @@
+/* src/components/Skills.css */
+
+.skills-form-container {
+    margin: 20px 0; /* Spacing around the container */
+    padding: 15px; /* Padding for the content inside the container */
+    border: 1px solid #ccc; /* Optional: border for better visibility */
+    border-radius: 8px; /* Rounded corners */
+    background-color: #f9f9f9; /* Light background color */
+    max-height: 400px; /* Set a max height for the container */
+    overflow-y: auto; /* Enable vertical scrolling */
+  }
+  
+  .skills-form {
+    display: flex;
+    flex-direction: column; /* Stack sections vertically */
+  }
+  
+  .skills-section {
+    margin-bottom: 20px; /* Space between sections */
+  }
+  
+  .skills-section h3 {
+    margin: 10px 0; /* Space above headings */
+  }
+  
+  .skills-section ul {
+    margin: 5px 0; /* Space above lists */
+    padding-left: 20px; /* Indentation for lists */
+  }
+  

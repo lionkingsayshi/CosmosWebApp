@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import GalaxiesList from './GalaxiesList.jsx'; // Import the GalaxiesList component
-import './Dashboard.css'; // Optional: for styling
+import './CSS/Dashboard.css'; // Optional: for styling
 
 const Dashboard = () => {
     // State to manage displaying GalaxiesList

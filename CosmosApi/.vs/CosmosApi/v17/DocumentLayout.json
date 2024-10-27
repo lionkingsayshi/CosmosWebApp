@@ -1,30 +1,14 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\PROJECTS\\UniverseMultiverse\\CosmosProjectAPI\\CosmosApi\\",
+  "WorkspaceRootPath": "D:\\PROJECTS\\UniverseMultiverse\\CosmosProjectAPI\\CosmosWebApp\\CosmosApi\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1481DE9C-DCD0-4BCF-B628-9D4114760B27}|CosmosApi\\CosmosApi.csproj|d:\\projects\\universemultiverse\\cosmosprojectapi\\cosmosapi\\cosmosapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1481DE9C-DCD0-4BCF-B628-9D4114760B27}|CosmosApi\\CosmosApi.csproj|solutionrelative:cosmosapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1481DE9C-DCD0-4BCF-B628-9D4114760B27}|CosmosApi\\CosmosApi.csproj|d:\\projects\\universemultiverse\\cosmosprojectapi\\cosmosapi\\cosmosapi\\cosmosinterface\\icosmosservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1481DE9C-DCD0-4BCF-B628-9D4114760B27}|CosmosApi\\CosmosApi.csproj|solutionrelative:cosmosapi\\cosmosinterface\\icosmosservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1481DE9C-DCD0-4BCF-B628-9D4114760B27}|CosmosApi\\CosmosApi.csproj|d:\\projects\\universemultiverse\\cosmosprojectapi\\cosmosapi\\cosmosapi\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{1481DE9C-DCD0-4BCF-B628-9D4114760B27}|CosmosApi\\CosmosApi.csproj|solutionrelative:cosmosapi\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1481DE9C-DCD0-4BCF-B628-9D4114760B27}|CosmosApi\\CosmosApi.csproj|d:\\projects\\universemultiverse\\cosmosprojectapi\\cosmosapi\\cosmosapi\\mongodb\\cosmosservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1481DE9C-DCD0-4BCF-B628-9D4114760B27}|CosmosApi\\CosmosApi.csproj|solutionrelative:cosmosapi\\mongodb\\cosmosservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1481DE9C-DCD0-4BCF-B628-9D4114760B27}|CosmosApi\\CosmosApi.csproj|d:\\projects\\universemultiverse\\cosmosprojectapi\\cosmosapi\\cosmosapi\\mongodb\\servicecollectionextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1481DE9C-DCD0-4BCF-B628-9D4114760B27}|CosmosApi\\CosmosApi.csproj|solutionrelative:cosmosapi\\mongodb\\servicecollectionextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1481DE9C-DCD0-4BCF-B628-9D4114760B27}|CosmosApi\\CosmosApi.csproj|d:\\projects\\universemultiverse\\cosmosprojectapi\\cosmosapi\\cosmosapi\\controllers\\cosmosapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1481DE9C-DCD0-4BCF-B628-9D4114760B27}|CosmosApi\\CosmosApi.csproj|d:\\projects\\universemultiverse\\cosmosprojectapi\\cosmoswebapp\\cosmosapi\\cosmosapi\\controllers\\cosmosapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1481DE9C-DCD0-4BCF-B628-9D4114760B27}|CosmosApi\\CosmosApi.csproj|solutionrelative:cosmosapi\\controllers\\cosmosapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1481DE9C-DCD0-4BCF-B628-9D4114760B27}|CosmosApi\\CosmosApi.csproj|d:\\projects\\universemultiverse\\cosmosprojectapi\\cosmoswebapp\\cosmosapi\\cosmosapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1481DE9C-DCD0-4BCF-B628-9D4114760B27}|CosmosApi\\CosmosApi.csproj|solutionrelative:cosmosapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,84 +18,32 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "appsettings.Development.json",
-              "DocumentMoniker": "D:\\PROJECTS\\UniverseMultiverse\\CosmosProjectAPI\\CosmosApi\\CosmosApi\\appsettings.Development.json",
-              "RelativeDocumentMoniker": "CosmosApi\\appsettings.Development.json",
-              "ToolTip": "D:\\PROJECTS\\UniverseMultiverse\\CosmosProjectAPI\\CosmosApi\\CosmosApi\\appsettings.Development.json",
-              "RelativeToolTip": "CosmosApi\\appsettings.Development.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-10-20T06:18:52.169Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ServiceCollectionExtensions.cs",
-              "DocumentMoniker": "D:\\PROJECTS\\UniverseMultiverse\\CosmosProjectAPI\\CosmosApi\\CosmosApi\\MongoDB\\ServiceCollectionExtensions.cs",
-              "RelativeDocumentMoniker": "CosmosApi\\MongoDB\\ServiceCollectionExtensions.cs",
-              "ToolTip": "D:\\PROJECTS\\UniverseMultiverse\\CosmosProjectAPI\\CosmosApi\\CosmosApi\\MongoDB\\ServiceCollectionExtensions.cs",
-              "RelativeToolTip": "CosmosApi\\MongoDB\\ServiceCollectionExtensions.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-20T04:51:52.654Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "CosmosService.cs",
-              "DocumentMoniker": "D:\\PROJECTS\\UniverseMultiverse\\CosmosProjectAPI\\CosmosApi\\CosmosApi\\MongoDB\\CosmosService.cs",
-              "RelativeDocumentMoniker": "CosmosApi\\MongoDB\\CosmosService.cs",
-              "ToolTip": "D:\\PROJECTS\\UniverseMultiverse\\CosmosProjectAPI\\CosmosApi\\CosmosApi\\MongoDB\\CosmosService.cs",
-              "RelativeToolTip": "CosmosApi\\MongoDB\\CosmosService.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABwAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-20T04:34:26.988Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "CosmosApiController.cs",
-              "DocumentMoniker": "D:\\PROJECTS\\UniverseMultiverse\\CosmosProjectAPI\\CosmosApi\\CosmosApi\\Controllers\\CosmosApiController.cs",
-              "RelativeDocumentMoniker": "CosmosApi\\Controllers\\CosmosApiController.cs",
-              "ToolTip": "D:\\PROJECTS\\UniverseMultiverse\\CosmosProjectAPI\\CosmosApi\\CosmosApi\\Controllers\\CosmosApiController.cs",
-              "RelativeToolTip": "CosmosApi\\Controllers\\CosmosApiController.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAIA1wBMAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-20T04:31:03.048Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\PROJECTS\\UniverseMultiverse\\CosmosProjectAPI\\CosmosApi\\CosmosApi\\Program.cs",
-              "RelativeDocumentMoniker": "CosmosApi\\Program.cs",
-              "ToolTip": "D:\\PROJECTS\\UniverseMultiverse\\CosmosProjectAPI\\CosmosApi\\CosmosApi\\Program.cs",
-              "RelativeToolTip": "CosmosApi\\Program.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAlwBIAAAAlAAAAAAAAAA==",
+              "Title": "CosmosApiController.cs",
+              "DocumentMoniker": "D:\\PROJECTS\\UniverseMultiverse\\CosmosProjectAPI\\CosmosWebApp\\CosmosApi\\CosmosApi\\Controllers\\CosmosApiController.cs",
+              "RelativeDocumentMoniker": "CosmosApi\\Controllers\\CosmosApiController.cs",
+              "ToolTip": "D:\\PROJECTS\\UniverseMultiverse\\CosmosProjectAPI\\CosmosWebApp\\CosmosApi\\CosmosApi\\Controllers\\CosmosApiController.cs",
+              "RelativeToolTip": "CosmosApi\\Controllers\\CosmosApiController.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAxwBUAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-20T04:30:42.139Z",
+              "WhenOpened": "2024-10-20T16:21:57.799Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "ICosmosService.cs",
-              "DocumentMoniker": "D:\\PROJECTS\\UniverseMultiverse\\CosmosProjectAPI\\CosmosApi\\CosmosApi\\CosmosInterface\\ICosmosService.cs",
-              "RelativeDocumentMoniker": "CosmosApi\\CosmosInterface\\ICosmosService.cs",
-              "ToolTip": "D:\\PROJECTS\\UniverseMultiverse\\CosmosProjectAPI\\CosmosApi\\CosmosApi\\CosmosInterface\\ICosmosService.cs",
-              "RelativeToolTip": "CosmosApi\\CosmosInterface\\ICosmosService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAgAAAAwAAAAAAAAAA==",
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\PROJECTS\\UniverseMultiverse\\CosmosProjectAPI\\CosmosWebApp\\CosmosApi\\CosmosApi\\Program.cs",
+              "RelativeDocumentMoniker": "CosmosApi\\Program.cs",
+              "ToolTip": "D:\\PROJECTS\\UniverseMultiverse\\CosmosProjectAPI\\CosmosWebApp\\CosmosApi\\CosmosApi\\Program.cs",
+              "RelativeToolTip": "CosmosApi\\Program.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-20T05:43:32.613Z",
+              "WhenOpened": "2024-10-20T16:15:13.218Z",
               "EditorCaption": ""
             }
           ]
